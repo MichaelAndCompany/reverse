@@ -1,6 +1,10 @@
 { "trailingSlash": true,
   "rewrites": [
     {
+      "source": "/blog/:path*",
+      "destination": "https://wurthit.us/east/:path*"
+    },
+    {
       "source": "/blog",
       "destination": "https://wurthit.us/east"
     },
