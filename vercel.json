@@ -1,12 +1,9 @@
 {
-  "rewrites": [
+  "redirects": [
     {
-      "source": "^/blog/(.*)$",
-      "destination": "https://wurthit.us/east/$1"
-    },
-    {
-      "source": "/blog",
-      "destination": "https://wurthit.us/east/"
+      "source": "/blog/2025/06/17/chump/",
+      "destination": "https://wurthit.us/east/2025/06/17/chump/",
+      "permanent": false
     }
   ]
 }
