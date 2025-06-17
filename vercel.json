@@ -3,6 +3,10 @@
     {
       "source": "/blog/:path*",
       "destination": "https://wurthit.us/east/:path*"
+    },
+    {
+      "source": "/blog/:path*/",
+      "destination": "https://wurthit.us/east/:path*/"
     }
   ]
 }
