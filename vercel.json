@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/blog",
-      "destination": "https://wurthit.us/east"
+      "source": "/blog/:subdir*",
+      "destination": "https://wurthit.us/east/:subdir*"
     }
   ]
 }
