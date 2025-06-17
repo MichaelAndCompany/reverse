@@ -6,12 +6,15 @@
     },
     {
       "source": "/blog/",
-      "destination": "https://wurthit.us/east"
+      "destination": "https://wurthit.us/east/"
     },
     {
-      "source": "/blog/:path*",
-      "destination": "https://wurthit.us/east/:path*"
+      "source": "/blog/:path+",
+      "destination": "https://wurthit.us/east/:path+"
+    },
+    {
+      "source": "/blog/:path+/",
+      "destination": "https://wurthit.us/east/:path+/"
     }
   ]
 }
-
