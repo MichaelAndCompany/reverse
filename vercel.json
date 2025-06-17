@@ -1,8 +1,19 @@
 {
+  "redirects": [
+    {
+      "source": "/blog/:path*([^.]*)/",
+      "destination": "/blog/:path*",
+      "permanent": false
+    }
+  ],
   "rewrites": [
     {
       "source": "/blog/:path*",
       "destination": "https://wurthit.us/east/:path*"
+    },
+    {
+      "source": "/blog",
+      "destination": "https://wurthit.us/east/"
     }
   ]
 }
