@@ -1,6 +1,8 @@
-{ 
+{
   "rewrites": [
-    { "source": "/blog/:subdir*", "destination": "https://wurthit.us/east/:subdir*" },
-    { "source": "/(.*)", "destination": "/" }
+    {
+      "source": "/blog",
+      "destination": "https://wurthit.us/east"
+    }
   ]
 }
