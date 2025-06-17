@@ -1,16 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/blog/:year/:month/:day/:slug/",
-      "destination": "https://wurthit.us/east/:year/:month/:day/:slug/"
-    },
-    {
-      "source": "/blog/:year/:month/:day/:slug",
-      "destination": "https://wurthit.us/east/:year/:month/:day/:slug"
-    },
-    {
-      "source": "/blog/:path*",
-      "destination": "https://wurthit.us/east/:path*"
+      "source": "^/blog/(.*)$",
+      "destination": "https://wurthit.us/east/$1"
     },
     {
       "source": "/blog",
